@@ -8,3 +8,6 @@ Task1 -> gcc -c $CFILE
 
 Task2 -> gcc -S $CFILE
 /*This script converts the c file stored inside the local variable CFILE into an interpreted file with the .s extention*/
+
+Task3 -> gcc -o cisfun $CFILE
+/*This script creates an executable file from the c file stored inside the CFILE variable called cisfun*/
